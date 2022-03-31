@@ -1,5 +1,5 @@
 const router = require ("express").Router();
-const Book = require("../Module/book");
+const Book = require("../Module/book")
 
 //geting all
 router.get("/",  async (req,res)=>{
