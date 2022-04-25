@@ -32,9 +32,7 @@ db.on("error", (err)=>{
 
 
 
-app.get("/", (req, res)=>{
-    res.json({message:'welcome to mern book store'})
-})
+
 
 // router connection
 const route = require("./books")
